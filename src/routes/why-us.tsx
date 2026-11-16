@@ -21,10 +21,10 @@ export const Route = createFileRoute("/why-us")({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://www.alliedforcegroup.com/why-us" },
+      { property: "og:url", content: "https://alliedforcegroup.com/why-us" },
     ],
     links: [
-      { rel: "canonical", href: "https://www.alliedforcegroup.com/why-us" },
+      { rel: "canonical", href: "https://alliedforcegroup.com/why-us" },
     ],
   }),
   component: WhyUsPage,

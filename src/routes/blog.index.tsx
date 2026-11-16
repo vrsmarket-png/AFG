@@ -20,10 +20,10 @@ export const Route = createFileRoute("/blog/")({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://www.alliedforcegroup.com/blog" },
+      { property: "og:url", content: "https://alliedforcegroup.com/blog" },
     ],
     links: [
-      { rel: "canonical", href: "https://www.alliedforcegroup.com/blog" },
+      { rel: "canonical", href: "https://alliedforcegroup.com/blog" },
     ],
   }),
   component: BlogIndex,

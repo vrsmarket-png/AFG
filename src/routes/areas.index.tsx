@@ -22,10 +22,10 @@ export const Route = createFileRoute("/areas/")({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://www.alliedforcegroup.com/areas" },
+      { property: "og:url", content: "https://alliedforcegroup.com/areas" },
     ],
     links: [
-      { rel: "canonical", href: "https://www.alliedforcegroup.com/areas" },
+      { rel: "canonical", href: "https://alliedforcegroup.com/areas" },
     ],
   }),
   component: AreasPage,
