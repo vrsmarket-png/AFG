@@ -22,10 +22,10 @@ export const Route = createFileRoute("/case-studies")({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://www.alliedforcegroup.com/case-studies" },
+      { property: "og:url", content: "https://alliedforcegroup.com/case-studies" },
     ],
     links: [
-      { rel: "canonical", href: "https://www.alliedforcegroup.com/case-studies" },
+      { rel: "canonical", href: "https://alliedforcegroup.com/case-studies" },
     ],
   }),
   component: CaseStudiesPage,
