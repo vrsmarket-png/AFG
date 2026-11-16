@@ -15,10 +15,10 @@ export const Route = createFileRoute("/terms")({
       { property: "og:description", content: "This page is being prepared." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://www.alliedforcegroup.com/terms" },
+      { property: "og:url", content: "https://alliedforcegroup.com/terms" },
     ],
     links: [
-      { rel: "canonical", href: "https://www.alliedforcegroup.com/terms" },
+      { rel: "canonical", href: "https://alliedforcegroup.com/terms" },
     ],
   }),
   component: TermsPage,
