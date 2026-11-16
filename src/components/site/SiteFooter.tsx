@@ -129,7 +129,7 @@ export function SiteFooter() {
             Offices
           </div>
           <ul className="mt-4 grid gap-4 text-sm">
-            {locations.map((office) => (
+            {locations.filter((office) => office.slug === "london").map((office) => (
               <li key={office.slug}>
                 <div className="font-semibold text-foreground">
                   {office.city}

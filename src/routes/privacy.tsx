@@ -16,10 +16,10 @@ export const Route = createFileRoute("/privacy")({
       { property: "og:description", content: "This page is being prepared." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://www.alliedforcegroup.com/privacy" },
+      { property: "og:url", content: "https://alliedforcegroup.com/privacy" },
     ],
     links: [
-      { rel: "canonical", href: "https://www.alliedforcegroup.com/privacy" },
+      { rel: "canonical", href: "https://alliedforcegroup.com/privacy" },
     ],
   }),
   component: PrivacyPage,
