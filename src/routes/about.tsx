@@ -21,10 +21,10 @@ export const Route = createFileRoute("/about")({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://www.alliedforcegroup.com/about" },
+      { property: "og:url", content: "https://alliedforcegroup.com/about" },
     ],
     links: [
-      { rel: "canonical", href: "https://www.alliedforcegroup.com/about" },
+      { rel: "canonical", href: "https://alliedforcegroup.com/about" },
     ],
   }),
   component: AboutPage,

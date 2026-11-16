@@ -55,10 +55,10 @@ export const Route = createFileRoute("/careers")({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://www.alliedforcegroup.com/careers" },
+      { property: "og:url", content: "https://alliedforcegroup.com/careers" },
     ],
     links: [
-      { rel: "canonical", href: "https://www.alliedforcegroup.com/careers" },
+      { rel: "canonical", href: "https://alliedforcegroup.com/careers" },
     ],
   }),
   component: CareersPage,

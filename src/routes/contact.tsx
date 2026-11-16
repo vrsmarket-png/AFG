@@ -24,10 +24,10 @@ export const Route = createFileRoute("/contact")({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://www.alliedforcegroup.com/contact" },
+      { property: "og:url", content: "https://alliedforcegroup.com/contact" },
     ],
     links: [
-      { rel: "canonical", href: "https://www.alliedforcegroup.com/contact" },
+      { rel: "canonical", href: "https://alliedforcegroup.com/contact" },
     ],
   }),
   component: ContactPage,
