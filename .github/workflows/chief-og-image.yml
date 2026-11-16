@@ -1,0 +1,22 @@
+name: chief-og-image
+on:
+  push:
+    branches: ["chief/h1-h2-publish-rows-a-a2-b"]
+    paths: [".github/workflows/chief-og-image.yml"]
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chief/h1-h2-publish-rows-a-a2-b
+      - name: Replace www og:image on home page
+        run: |
+          sed -i 's#https://www.alliedforcegroup.com/afg-share.jpg#https://alliedforcegroup.com/afg-share.jpg#g' src/routes/index.tsx
+          grep -c 'https://alliedforcegroup.com/afg-share.jpg' src/routes/index.tsx
+          git config user.name "Chief (AFG)"
+          git config user.email "chief-bot@users.noreply.github.com"
+          git commit -am "Row b (7/7): home og:image + twitter:image non-www"
+          git push origin HEAD:chief/h1-h2-publish-rows-a-a2-b
