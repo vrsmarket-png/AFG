@@ -50,7 +50,7 @@ export function buildLlmsTxt(): string {
   lines.push("");
   lines.push(`- [About](${absoluteUrl("/about")}): How Allied Force Group is organised and how work is run.`);
   lines.push(`- [Why us](${absoluteUrl("/why-us")}): Approach, quality, safety, technology, social value and mobilisation.`);
-  lines.push(`- [Global locations](${absoluteUrl("/locations")}): Group offices in London (headquarters), Frankfurt and New York.`);
+  lines.push(`- [Global locations](${absoluteUrl("/locations")}): Group office in London (headquarters).`);
   lines.push(`- [Policies](${absoluteUrl("/policies")}): Published company policies.`);
   lines.push(`- [Resources](${absoluteUrl("/resources")}): Practical facilities checklists and guides.`);
   lines.push(`- [Glossary](${absoluteUrl("/resources/fm-glossary")}): Definitions of common facilities management terms.`);
