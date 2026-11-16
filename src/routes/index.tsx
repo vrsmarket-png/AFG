@@ -36,12 +36,12 @@ export const Route = createFileRoute("/")({
       { property: "og:type", content: "website" },
       {
         property: "og:image",
-        content: "https://www.alliedforcegroup.com/afg-share.jpg",
+        content: "https://alliedforcegroup.com/afg-share.jpg",
       },
       { name: "twitter:card", content: "summary_large_image" },
       {
         name: "twitter:image",
-        content: "https://www.alliedforcegroup.com/afg-share.jpg",
+        content: "https://alliedforcegroup.com/afg-share.jpg",
       },
       { property: "og:url", content: "https://alliedforcegroup.com/" },
     ],
