@@ -1,7 +1,7 @@
 # Allied Force Group
 # Plain-text summaries for AI assistants:
-#   https://www.alliedforcegroup.com/llms.txt
-#   https://www.alliedforcegroup.com/llms-full.txt
+#   https://alliedforcegroup.com/llms.txt
+#   https://alliedforcegroup.com/llms-full.txt
 
 User-agent: *
 Allow: /

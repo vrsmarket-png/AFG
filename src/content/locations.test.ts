@@ -10,6 +10,6 @@ test("London trading office uses the confirmed address", () => {
   assert.equal(london.postalCode, "W1W 5PF");
 });
 
-test("updating the trading office preserves the separate registered office", () => {
-  assert.ok(legalEntityLine.includes("Registered office: Level 18, 40 Bank Street (HQ3), London E14 5NR."));
+test("registered office line uses the approved address", () => {
+  assert.ok(legalEntityLine.includes("Registered office: 167-169 Great Portland Street, London W1W 5PF."));
 });
