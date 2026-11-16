@@ -25,10 +25,10 @@ export const Route = createFileRoute("/service-planner")({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:url", content: "https://www.alliedforcegroup.com/service-planner" },
+      { property: "og:url", content: "https://alliedforcegroup.com/service-planner" },
     ],
     links: [
-      { rel: "canonical", href: "https://www.alliedforcegroup.com/service-planner" },
+      { rel: "canonical", href: "https://alliedforcegroup.com/service-planner" },
     ],
   }),
   component: ServicePlannerPage,
